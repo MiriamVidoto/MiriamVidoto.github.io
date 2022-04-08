@@ -1,7 +1,13 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Lilita+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* 
+    font para titulos:'Lilita One', cursive;
+    font para texto corrido: 'Roboto', sans-serif;
+    font para pequenos textos: 'Comfortaa', cursive;
+    font para lugares especificos  'Dancing Script', cursive;
+     */
 *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
@@ -20,7 +26,13 @@ main{
 h1{
     color: #6767af;
     text-align: center;
+    font: 400 3em 'Lilita One', cursive;
 }
 h2{
     color: #130233;
+    font: 400 2em 'Lilita One', cursive;
+
+}
+p{
+    font: normal 400 1.2em roboto, sans-serif;
 }
