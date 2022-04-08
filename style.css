@@ -6,25 +6,40 @@
     font para texto corrido: 'Roboto', sans-serif;
     font para pequenos textos: 'Comfortaa', cursive;
     font para lugares especificos  'Dancing Script', cursive;
+
+    cores:
+            #130233
+            #dbff22
+            #6767af
+            #c37bdb
+            #6694bd
      */
+
 *{
     
 }
+header{
+    background-color: #6767af;
+    border-radius: 5px;
+    box-shadow:10px 10px 15px rgba(0, 0, 0, 0.164);
+    width: auto;
+    padding: 10px;
+    margin: 5px; 
+}
+
+nav{
+        
+}
 
 body{
-    background-image: linear-gradient(to right, #6767af, #c37bdb);
+    background-image: linear-gradient(to right, #c37bdb, #E3C1FF );
 }
 
 main{
-    background-color: aliceblue;
-    border-radius: 5px;
-    box-shadow:10px 10px 15px rgba(83, 45, 99, 0.459);
-    width: 1200px;
-    padding: 10px;
-    margin: auto;
+    
 }
 h1{
-    color: aliceblue;
+    color:aliceblue;
     text-align: center;
     font: 400 3em 'Lilita One', cursive;
 }
@@ -35,4 +50,60 @@ h2{
 }
 p{
     font: normal 400 1.2em roboto, sans-serif;
+}
+a{
+    color: #dbff22;
+    text-decoration: none;
+}
+a > nav{
+    background-color: #130233;
+    padding: 10px;
+    margin: 5px;
+}
+.texto-branco{
+    font : normal 500 18px roboto, sans-serif;
+    color:aliceblue
+}
+.caixa-texto-corrido{
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow:10px 10px 15px rgba(0, 0, 0, 0.164);
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+}
+#quem-sou-eu{
+    background-color: #6767af;
+    border-radius: 5px;
+    box-shadow:10px 10px 15px rgba(0, 0, 0, 0.164);
+    width: auto;
+    padding: 10px;
+    margin: 5px; 
+    }
+#minha-descricao{
+    display:block;
+}
+#minhas-habilidades{
+    background-color: #6694bd;
+    border-radius: 5px;
+    box-shadow:10px 10px 15px rgba(0, 0, 0, 0.164);
+    width: auto;
+    padding: 10px;
+    margin: 5px;  
+}
+#minhas-referencias{
+    background-color: #6694bd;
+    border-radius: 5px;
+    box-shadow:10px 10px 15px rgba(0, 0, 0, 0.164);
+    width: auto;
+    padding: 10px;
+    margin: 5px;  
+}
+#vamos-nos-conectar{
+    background-color: #130233;
+    border-radius: 5px;
+    box-shadow:10px 10px 15px rgba(0, 0, 0, 0.164);
+    width: auto;
+    padding: 10px;
+    margin: 5px; 
 }
